@@ -1,7 +1,7 @@
 ## API DOCUMENTATION 
 
 
-Enable
+Enable Motor 
 
 Remote Command Execution Script
 
