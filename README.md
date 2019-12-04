@@ -5,4 +5,4 @@ Enable Motor
 
 Remote Command Execution Script
 
-Remote Hello Word Demo
+Hello World Demo
