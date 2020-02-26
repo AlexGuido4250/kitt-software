@@ -6,6 +6,22 @@ const int EnableR = 10;
 const int HighR = 8;       //RIGHT SIDE MOTOR
 const int LowR =9;
 
+const int D0 = 0;        
+const int D1 = 1;         // Arduino digital pins 0-3
+const int D2 = 2;
+const int D3 = 3;
+
+void data()
+{
+  a = digitalRead(D0); 
+  b = digitalRead(D1);
+  c = digitalRead(D2);
+  d = digitalRead(D3);
+
+  // Continue here
+}
+
+
 void setup() {
 
 pinMode(EnableL, OUTPUT);
