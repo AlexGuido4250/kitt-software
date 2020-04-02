@@ -67,7 +67,7 @@ void Backward()
 {
   digitalWrite(HighL, LOW);
   digitalWrite(LowL, HIGH);
-  analogWrite(EnableL,100); // Decreasing speed of left side motor for a NORMAL left turn
+  analogWrite(EnableL,100); // Decreasing speed of left side motor for a EXTREME left turn
 
   digitalWrite(HighR, LOW);
   digitalWrite(LowR, HIGH);
@@ -104,7 +104,7 @@ void Backward()
 
   digitalWrite(HighR, LOW);
   digitalWrite(LowR, HIGH);
-  analogWrite(EnableR,100); // Decreasing speed of right side motor for a NORMAL right turn
+  analogWrite(EnableR,100); // Decreasing speed of right side motor for a EXTREME right turn
   
 }
 
