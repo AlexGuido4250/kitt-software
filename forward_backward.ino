@@ -1,10 +1,10 @@
 const int EnableL = 5;
-const int HighL = 6;       // LEFT SIDE MOTOR
+const int HighL = 6;       // LEFT SIDE MOTOR CONNCECTED TO PINS ON ARDUINO
 const int LowL =7;
 
 const int lowL = 7;
 const int EnableR = 10;
-const int HighR = 8;       //RIGHT SIDE MOTOR
+const int HighR = 8;       //RIGHT SIDE MOTOR CONNCETED TO PINS ON ARDUINO
 const int LowR =9;
 
 void setup() {
