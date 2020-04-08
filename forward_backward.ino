@@ -8,8 +8,8 @@ const int HighR = 8;       //RIGHT SIDE MOTOR CONNCETED TO PINS ON ARDUINO
 const int LowR =9;
 
 void setup() {
-
-pinMode(EnableL, OUTPUT);
+// Setting the Pins as OUTPUTS
+pinMode(EnableL, OUTPUT); 
 pinMode(HighL, OUTPUT);
 pinMode(LowL, OUTPUT);
 
@@ -28,7 +28,7 @@ void Forward()
 
   digitalWrite(HighR, LOW);
   digitalWrite(LowR, HIGH);
-  analogWrite(EnableR,255); // Forward motor speed
+  analogWrite(EnableR,255); // Forward motor speed PWM
   
 }
 
@@ -41,7 +41,7 @@ void Backward()
 
   digitalWrite(HighR, HIGH);
   digitalWrite(LowR, LOW);
-  analogWrite(EnableR,255); // Backward motor speed
+  analogWrite(EnableR,255); // Backward motor speed PWM
 }
   void Left1()
 {
